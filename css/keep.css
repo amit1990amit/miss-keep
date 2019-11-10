@@ -1,0 +1,149 @@
+.keep-app-container{
+    width: 100%;
+    /* position: absolute; */
+    top: 120px;
+    /* background-color: #e3e3e3; */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2, h3{
+    overflow: hidden;
+}
+
+.note-list-container{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.note-list-container > *{
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.box{
+    order: 1;
+}
+
+.pinBox{
+    order: 0;
+}
+
+@media(max-width: 960px) {
+    .note-list-container{
+        grid-template-columns:  1fr 1fr;
+    }  
+}
+
+@media(max-width: 550px) {
+    .note-list-container{
+        grid-template-columns:  1fr ;
+    }  
+}
+
+
+.note-preview-container{
+    height: 20rem;
+    padding: 10px;
+    padding-bottom: 40px;
+    position: relative;
+    
+}
+
+.note-add input {
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    width: 350px;
+    border: 1px solid #cfbcbcd7;
+    font-size: 1.3rem;
+}
+
+.note-add button{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.note-add button:hover{
+    transform: scale(1.1);
+}
+
+/* .img-note img{
+    width: 90%;
+    margin: 10px 5% 0 5%;
+    height: 250px;
+} */
+
+.img-note iframe{
+    height: 95%;
+    object-fit: cover;
+}
+.img-note img{
+    height: 95%;
+    object-fit: cover;
+}
+
+.note-add, .search-container{
+    align-self: center;
+}
+
+
+.search-container input{
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid  #cfbcbcd7;
+    font-size: 1.3rem;
+}
+
+.marked {
+    text-decoration: line-through;
+}
+
+.toolbar .glow{
+    background-color:#424B54;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.toolbar{
+    position: absolute;
+    bottom: 10px;
+    background-color: #917c7c;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px;
+    /* position: absolute;
+    left: 0; */
+    padding: 7px;
+    background-color:#B38D97;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toolbar > *{
+    font-size: 1rem;
+}
+
+.toolbar button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.toolbar button:hover, label:hover {
+    transform: scale(1.1);
+}
+
+.color-input{
+    position: absolute;
+    bottom: 10000px;
+}
