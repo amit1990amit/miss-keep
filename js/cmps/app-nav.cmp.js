@@ -8,8 +8,8 @@ export default {
         <button class="app-navigation-btn" :class="classObject" @click="toggleNav"> 
             <img src="imgs/menu2-icon.png"/>
             <nav class="flex wrap">
-                <router-link exact to="/email">email</router-link>
-                <router-link exact to="/keep">keep</router-link>
+                <router-link exact to="/email"><i class="fa fa-fw fa-envelope"></i></router-link>
+                <router-link exact to="/keep"><i class="fas fa-comment-alt"></i></router-link>
             </nav>
         </button>
     </section>

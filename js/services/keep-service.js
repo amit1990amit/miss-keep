@@ -109,9 +109,15 @@ function unpinNote(note){
 
 
 let gNotes = [
-    createNote({data: 'aaaaa',type: 'text-note'}),
-    createNote({data: 'bbbbb',type: 'text-note'}),
+    createNote({data: 'one, two, three, four',type: 'todo-note'}),
+    createNote({data: 'please let ther be a hollyday',type: 'text-note'}),
+    createNote({data: 'bbbbb ewfg  etgrr rwerer rererg rtrht',type: 'text-note'}),
     createNote({data: 'https://www.slashfilm.com/wp/wp-content/images/avatar-2-story.jpg',type: 'img-note'}),
-    createNote({data: 'aaa, ssss',type: 'todo-note'})
+    createNote({data: 'https://www.youtube.com/watch?v=t99KH0TR-J4',type: 'video-note'}),
+    createNote({data: 'https://www.youtube.com/watch?v=vx2u5uUu3DE',type: 'video-note'}),
+    createNote({data: 'eat, code, sleep, reapet',type: 'todo-note'}),
+    createNote({data: 'https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/02/12/15/avengers-infinity-war.jpg',type: 'img-note'}),
+    createNote({data: 'https://cdn.vox-cdn.com/thumbor/s75gLh7aKLzTxDcZjOKE9eFvF-M=/0x0:498x558/1200x800/filters:focal(205x62:283x140)/cdn.vox-cdn.com/uploads/chorus_image/image/64901699/Screen_Shot_2019_08_01_at_8.43.52_PM.0.png',type: 'img-note'}),
+
 ];
 // {data: 'aaaaa',type: 'text-note'}

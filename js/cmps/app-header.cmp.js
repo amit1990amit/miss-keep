@@ -1,6 +1,6 @@
 'use strict';
 
-export default {
+export default { 
     name: 'app-header',
     template: `
     <section class="app-header-container">
@@ -9,8 +9,11 @@ export default {
             <button class="app-navigation-btn" :class="classObject" @click="toggleNav"> 
                 <img src="imgs/menu2-icon.png"/>
                 <nav  class="app-model flex wrap">
+                    <div class="flex wrap">
                     <router-link exact to="/email" class="fa fa-fw fa-envelope"></router-link>
                     <router-link exact to="/keep"><i class="fas fa-comment-alt"></i></router-link>
+                    
+                    </div>
                 </nav>
             </button>
         </section>

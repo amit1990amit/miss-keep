@@ -107,14 +107,21 @@ h6 {
 }
 
 nav {
-    position: absolute;
-    top: calc(84.7% + 10px);
+    position: fixed;
+    top: 50px;
     transform: translateX(-80%);
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     transition: 0.3s 0.3s;
     font-size: 0;
     background: #34495e21;
+    scale: 3;
+}
+
+nav i {
+    font-size: 2.5rem;
+    margin: 10px;
+
 }
 
 .app-navigation-btn.clicked nav {
